@@ -1,12 +1,5 @@
-//{ Driver Code Starts
-//Initial Template for C++
-
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-//User function Template for C++
 
 class Solution{
 public:
@@ -15,7 +8,6 @@ public:
             St.push(val);
             return;
         }
-        
             int el=St.top();
             St.pop();
             insertAtLast(St,val);
@@ -34,7 +26,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
 
 
 int main(){
